@@ -7,7 +7,7 @@ public class AnswerMan {
 
 	public static void main(String[] args) {
 		Random r = new Random();
-		System.out.println("이번에 대답할 자 : " + (r.nextInt(15)+1));
+		System.out.println("이번에 대답할 자 : " + (r.nextInt(14)+1));
 		
 	}
 }
